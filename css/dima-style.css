@@ -1,0 +1,31 @@
+*
+::before,
+::after {
+    box-sizing: inherit;
+}
+:root {
+    box-sizing: border-box;
+}
+body{
+    margin:0 auto;
+    padding: 0;
+}
+  .strok{
+    display: flex;
+    width: 100%;
+    min-height: 6vh;
+    background-color: #555;
+
+  }
+  .buttons{
+    width: 33%;
+    text-align: center;
+    color: #eee;
+    margin-top: 1.2vh;
+  }
+  .link{
+    text-decoration: none;
+    color: #eee;
+    font-size: 3vh ;
+
+  }

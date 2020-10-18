@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>asd</title>
+		<link rel="stylesheet"type='text/css' href='./css/filepond.css'>
+		<link rel='stylesheet' type='text/css' href='./css/dima-style.css'>
+	</head>
+	<body>
+		<div class="strok"> 
+			<div class="buttons"><a href="./table.html" class="link">Общий Список задач</a></div>
+			<div class="buttons"><a href="./second (2).html" class="link">Задачи</a></div>
+			<div class="buttons"><a href="./third.html" class="link">Запасная ссылка</a></div>
+		  </div>
+		<input type="file">
+	</body>
+	
+	<script src= "https://unpkg.com.filepond/dist/filopond.js"></script>
+	<script>
+	
+		const inputElement = document.querySelector("input[type='file']");
+		
+		const pond = FilePond.create(inputElement);
+	
+	</script>
+</html>
